@@ -54,7 +54,7 @@ const Shop = () => {
     {
       id: 6,
       img: "src/assets/img/product7.jpg",
-      name: "Mariano di Viao - two shade Shirt",
+      name: "Two shade Shirt by Mariano",
       price: "450.00",
       discount: "5% off",
     }
