@@ -73,15 +73,6 @@ const Navbar = () => {
                 Products
               </Link>
 
-              <Link
-                to="reviews"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="hover:text-black transition duration-300 ease-in-out cursor-pointer"
-              >
-                Reviews
-              </Link>
             </nav>
 
             {/* nav icons */}
@@ -158,16 +149,6 @@ const Navbar = () => {
               Products
             </Link>
 
-            <Link
-              to="reviews"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="hover:text-black transition duration-300 ease-in-out cursor-pointer"
-              onClick={closeMenu}
-            >
-              Reviews
-            </Link>
           </div>
         </section>
       </header>
